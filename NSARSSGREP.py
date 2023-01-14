@@ -17,7 +17,7 @@ def toes(titty):
     try:
         while True:
             cookies = {'c_user': '[cookie]', 'xs': '[cookie]'}
-            r = requests.get("https://developers.facebook.com/tools/debug/echo/?q=http://googleweblight.com/?lite_url=https://www.nsa.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType="+titty.strip()+"&Site=1282&max=20&s=1&source=wax-m", allow_redirects=False, cookies=cookies)
+            r = requests.get("https://developers.facebook.com/tools/debug/echo/?q=http://googleweblight.com/?lite_url=https://www.nsa.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType="+titty+"&Site=1282&max=20&s=1&source=wax-m", allow_redirects=False, cookies=cookies)
             if r.ok:
                 buffnet = open('buffnet.txt', 'w')
                 print(r.text, file=buffnet)
