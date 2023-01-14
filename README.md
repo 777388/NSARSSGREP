@@ -5,6 +5,8 @@ Requires facebook cookies! format in file {'xs': 'cookie', 'c_user': 'cookie'}
 
 Takes around 16 minutes to avoid rate limiting
 
+Usage python3 NSARSSGREP.py searchterm
+
 
 Grep using Facebook to receive google accessing a NSA RSS feed to obtain more information than publicly available
 accesses the first 100 feeds, may be more haven't checked
