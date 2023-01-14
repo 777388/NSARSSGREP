@@ -13,7 +13,7 @@ import os
 print("Usage NSARSS.py searchterm")
 
 def toes(titty):
-    wude = open(yup+"output.txt", 'a')
+    wude = open(sys.argv[1]+"output.txt", 'a')
     try:
         while True:
             cookies = {'c_user': '[cookie]', 'xs': '[cookie]'}
