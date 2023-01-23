@@ -11,7 +11,7 @@ import urllib
 from requests.utils import unquote
 import os
 print("Usage NSARSS.py searchterm")
-
+rer = sys.argv[1]
 def toes(titty):
     wude = open(sys.argv[1]+"output.txt", 'a')
     try:
